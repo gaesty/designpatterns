@@ -1,7 +1,4 @@
 class FactoryGift:
-    # def __init__(self, name):
-    #     self.name = name
-        
     def create_new_gift(self, name):
         if name == 'electronic':
             return Electronic()

@@ -22,7 +22,6 @@ class DeliveryContext():
         self.delivery_strategy = delivery_strategy
      
     def make_delivery(self):
-        if self.delivery_strategy is None:
-            pass
-        else:
+        if self.delivery_strategy is not None:
             self.delivery_strategy.deliver()
+           
